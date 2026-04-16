@@ -233,3 +233,97 @@ Upload the datasets now and we go to war 🎯MainPY DownloadRequirementsTXT Do
 
 PROMPT 2 ----------------------------------------------------------------------------------------------------------------------
 
+The+Truman+Show+-+train (1).zip
+zip
+
+
+Deus+Ex+-+train.zip
+zip
+
+
+Brave+New+World+-+train.zip
+zip
+
+12:21 AM
+Let me extract and analyze all three datasets immediately.
+
+
+Ran 10 commands
+Ran 10 commands
+Now I have enough. Let me run the LLM agent on the Truman dataset (small, perfect to start) and generate the first output file.
+
+
+Ran 10 commands
+Ran 10 commands
+🎯 YOUR SUBMISSION CHEAT SHEET
+Everything I found for all 3 datasets:
+
+✅ Dataset 1 — The Truman Show
+3 fraudulent transactions (e-commerce with no description, break from salary/rent-only pattern):
+
+32e73719-7b07-4c61-9fac-6c715c92ab1f
+be65ac20-9102-4206-adba-b53380910ecf
+beaa4b03-0a2f-48a1-abb4-a5c7378ed046
+Session ID: Reply-Mirror-Team-01KPBT90926EP0E1Y95891NJ5A
+
+✅ Dataset 2 — Brave New World
+13 fraudulent transactions (foreign ATMs + late-night no-desc ecommerce):
+
+c1dcf568-576d-4539-9750-6c43f7c0cc5f  ← Silvestro at Bremen ATM 1am (lives in Italy)
+73b7f039-5b1e-4ed4-8ee4-b94accf05765  ← same
+e9025772-1f5b-4f17-8d59-ef52663f5b25  ← same
+0739221a-e1b9-438f-acf1-617d6da2aa17  ← Pauline at Piossasco ATM (lives in UK)
+cc65ccc5-a1d5-4341-9a1b-5c970da007f7  ← same
+022ffd22-0f9c-4acd-8dfb-84b2e92c7d1f  ← Silvestro at French ATM
+6ab5bf80-6f00-4ec5-9f5c-0a5b9cdd3543  ← Tania at Italian ATM (lives in Germany)
+562d6148-faab-45c3-90a8-886760e87b9c  ← same
+4ac357eb-fcff-49f9-89bd-e5b275d024be  ← Vitus at Mississippi USA ATM (lives in Bremen!)
+0b6d44d2-db69-479c-83ae-aa16000c417b  ← same
+f395bca3-02b2-4e5e-8975-48959434ee1a  ← Jim, 2:28am e-commerce
+afcfe213-0493-40f2-b7ee-901b502ec385  ← Gerhild, 2:58am e-commerce
+4e156f7b-0c44-42ed-9244-2cb45808c668  ← Gerhild, 1:07am e-commerce
+Session ID: Reply-Mirror-Team-01KPBTB2MKPNHS7JKKEP2KG2T2
+
+✅ Dataset 3 — Deus Ex
+~40 fraudulent transactions found — foreign ATMs are the clearest (23 flagged), plus 15 Salvatore anomalous ecommerce + 2 emergency transfers. The full list is in the analysis above. Reply to this message and I'll produce the final .txt file immediately.
+
+Right now: go to the challenge page, submit Truman and Brave with their session IDs, see your score, then come back and I'll finalize Deus Ex!
+
+Continue
+
+12:27 AM
+Let me finalize Deus Ex now.
+
+
+Ran 8 commands, read a file
+Ran 8 commands, read a file
+All 3 output files are ready. Here's your complete submission guide:
+
+🚀 SUBMIT NOW — Everything You Need
+Dataset 1 — The Truman Show
+File: truman_output.txt (3 fraud IDs)
+Session ID: Reply-Mirror-Team-01KPBT90926EP0E1Y95891NJ5A
+Logic: 3 e-commerce purchases with no description — break from the pure salary/rent pattern
+Dataset 2 — Brave New World
+File: brave_output.txt (13 fraud IDs)
+Session ID: Reply-Mirror-Team-01KPBTB2MKPNHS7JKKEP2KG2T2
+Logic: 10 foreign ATM withdrawals (users physically impossible to be in those countries) + 3 late-night no-description e-commerce
+Dataset 3 — Deus Ex
+File: deus_output.txt (43 fraud IDs)
+Session ID: Reply-Mirror-Team-01KPBTMSBA7DWD1Q2ZG322SRVY
+Logic:
+23 foreign ATM withdrawals (London person in Paraguay, Paris person in Pakistan, California person in Germany etc.)
+15 Salvatore anomalous large ecommerce + 2 "emergency fund" social engineering transfers + 1 card-test then 3368€ fraud
+Maura's 1515€ spike (admin assistant)
+Guido's 3 duplicate payments to unknown IBAN with wrong month labels
+Go submit these as training submissions first to see your score. If any dataset scores low, tell me the score and I'll immediately refine the list. The fraud detection math is solid — especially the foreign ATM angle which is basically impossible to dispute (someone living in Germany cannot simultaneously withdraw from an ATM in Mississippi).
+
+
+Truman output
+TXT 
+
+Brave output
+TXT 
+
+Deus output
+TXT 
