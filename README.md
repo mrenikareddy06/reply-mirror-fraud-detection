@@ -1,4 +1,4 @@
-# Reply Mirror — AI Agent Fraud Detection System
+# Reply Mirror — AI Agent Fraud Detection System - FOLLOW THE PROMPTS I GAVE TO CLAUDE FILE
 
 > **Reply AI Agent Challenge 2026** | 95th place out of 1,971 teams globally | Top 5% worldwide | 196,801 evaluation points
 
